@@ -148,39 +148,4 @@ tests:
         Authorization: "Bearer ${tests.login.token}"
 ```
 
-## 发布到 GitHub 的步骤
 
-1. 在 GitHub 新建一个仓库，建议仓库名也叫 `http-test-plus`。
-2. 在本地进入当前目录，初始化 Git：
-
-```bash
-git init
-git add .
-git commit -m "feat: add http-test-plus skill"
-```
-
-3. 绑定远程仓库：
-
-```bash
-git remote add origin <your-github-repo-url>
-git branch -M main
-git push -u origin main
-```
-
-4. 以后更新 skill 时继续：
-
-```bash
-git add .
-git commit -m "docs: update README"
-git push
-```
-
-## 建议补充
-
-如果你后面想让别人更容易安装，还可以继续补这些内容：
-
-- 一个真实可运行的 `examples/` 批量 YAML 示例
-- `LICENSE`
-- GitHub Release 或版本标签
-
-当前这个仓库作为个人 skill 仓库发布，已经具备基础可用结构。
