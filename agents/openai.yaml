@@ -1,0 +1,4 @@
+interface:
+  display_name: "接口测试增强版"
+  short_description: "单请求和批量 HTTP 接口测试"
+  default_prompt: "使用 $http-test-plus 测试 JSON HTTP 接口或运行批量 YAML 用例，并返回中文结论和报告路径。"
